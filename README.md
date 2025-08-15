@@ -1,1 +1,297 @@
-# fastmoverandpicker
+<html lang="en">
+ <head>
+  <meta name="google-site-verification" content="r3br7KelP343f2yFFr1Aoq3vR3ktcxuQzc5yKhURxLk" />
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Movers and Pickers
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#19375f] text-white">
+  <!-- Slider Section -->
+  <div class="relative w-full max-w-full overflow-hidden">
+   <img alt="Large truck driving on a highway with sunlight effect on the left side" class="w-full object-cover" src="https://placehold.co/1200x400?text=Truck+on+Road+with+Sunlight+Effect"/>
+   <!-- Left arrow -->
+   <button aria-label="Previous Slide" class="absolute top-1/2 left-4 -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-40 text-white p-2 rounded">
+    <i class="fas fa-chevron-left">
+    </i>
+   </button>
+   <!-- Right arrow -->
+   <button aria-label="Next Slide" class="absolute top-1/2 right-4 -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-40 text-white p-2 rounded">
+    <i class="fas fa-chevron-right">
+    </i>
+   </button>
+   <!-- Dots -->
+   <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 text-white text-xs">
+    <span class="w-2 h-2 rounded-full bg-white opacity-50">
+    </span>
+    <span class="w-2 h-2 rounded-full bg-white opacity-50">
+    </span>
+    <span class="w-2 h-2 rounded-full bg-white opacity-50">
+    </span>
+    <span class="w-2 h-2 rounded-full bg-white opacity-50">
+    </span>
+    <span class="w-2 h-2 rounded-full bg-white opacity-50">
+    </span>
+   </div>
+  </div>
+  <!-- Quote Bar -->
+  <div class="bg-[#ffb511] text-center py-1">
+   <p class="italic font-semibold text-sm text-black">
+    ' Personal, Competent and Professional Movers '
+   </p>
+  </div>
+  <!-- Main Content -->
+  <div class="px-4 md:px-10 lg:px-20 py-8">
+   <h1 class="text-[#ffb511] font-bold text-xl md:text-2xl mb-4">
+    WELCOME TO MOVERS AND PACKERS
+   </h1>
+   <p class="text-xs md:text-sm leading-relaxed mb-4">
+    Movers And Packers best Packing Moving &amp; Relocation Company in Pakistan. Movers And Packers Based In Lahore and Have a Branches in All Major Cities Like Karachi, Islamabad, Rawalpindi, Peshawar, Quetta, Gujranwala, Gujrat, Wazirabad, Faisalabad, Sialkot, Multan, Gwadar, Hyderabad, Kasur.
+   </p>
+   <p class="text-xs md:text-sm leading-relaxed mb-4">
+    Movers And Packers Company has made your moving task as easy as Possible. We Have a Years of experience In Moving Packing Field , an accurate and extensive knowledge of the city is very important in this business as well as competence in the area of migration give us the opportunity to give you a perfect and smooth start into your new and successful life in Pakistan.
+   </p>
+   <p class="text-xs md:text-sm leading-relaxed mb-8">
+    Packers and Movers are dedicated to using the latest packing material to provide the maximum care when handling your goods. Our training academy ensures that crews use the highest quality packing materials combined with the best preservation techniques for each item that is being prepared for transportation as well as an extremely professional and careful approach.
+   </p>
+   <h2 class="text-[#ffb511] font-bold text-lg md:text-xl mb-4">
+    CURRNT WORKS
+   </h2>
+   <p class="text-xs md:text-sm leading-relaxed mb-4">
+    Movers And Packers Company is the best Choice For All Your Packing and Moving Needs In Your Town. We Are a Young and Professional Movers our dedicated Team always Ready To Serve You. Our Expert and committed Team Handle All Your Domestic and International Relocation Around the Globe.
+   </p>
+   <p class="text-xs md:text-sm leading-relaxed mb-4">
+    Packers And Movers are Very Famous In Corporate Moving In Local Market. We Work 24x7 For Our Valued Customers that they get best Packing Moving Service Response From Our Company.
+   </p>
+   <p class="text-xs md:text-sm leading-relaxed mb-8">
+    Our All Crew are fully Responsible and honest and care all your personal Belonging all the way. It's always very good Experience when you choose a Professional Company For Your Transfer Of Residence.
+   </p>
+   <!-- Images Grid -->
+   <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <!-- Local Moving -->
+    <div class="relative border border-white border-opacity-30">
+     <img alt="Happy couple looking outside window, representing local moving" class="w-full h-auto" src="https://placehold.co/400x400?text=Couple+Looking+Outside+Window+Happy+Local+Moving"/>
+     <div class="absolute top-4 left-4 bg-white bg-opacity-20 px-3 py-1 text-xs text-white font-light tracking-widest uppercase">
+      LOCAL MOVING
+     </div>
+    </div>
+    <!-- International Moving -->
+    <div class="relative border border-white border-opacity-30">
+     <img alt="Stacked cardboard boxes representing international moving" class="w-full h-auto" src="https://placehold.co/400x400?text=Stacked+Cardboard+Boxes+International+Moving"/>
+     <div class="absolute top-4 left-4 bg-white bg-opacity-20 px-3 py-1 text-xs text-white font-light tracking-widest uppercase">
+      INTERNATIONAL MOVING
+     </div>
+    </div>
+    <!-- Office Relocation -->
+    <div class="relative border border-white border-opacity-30">
+     <img alt="Men moving office equipment representing office relocation" class="w-full h-auto" src="https://placehold.co/400x400?text=Men+Moving+Office+Equipment+Office+Relocation"/>
+     <div class="absolute top-4 left-4 bg-white bg-opacity-20 px-3 py-1 text-xs text-white font-light tracking-widest uppercase">
+      OFFICE RELOCATION
+     </div>
+    </div>
+    <!-- Domestic Shifting -->
+    <div class="relative border border-white border-opacity-30">
+     <img alt="Man packing boxes representing domestic shifting" class="w-full h-auto" src="https://placehold.co/400x400?text=Man+Packing+Boxes+Domestic+Shifting"/>
+     <div class="absolute top-4 left-4 bg-white bg-opacity-20 px-3 py-1 text-xs text-white font-light tracking-widest uppercase">
+      DOMESTIC SHIFTING
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#2c3e50] text-white px-4 py-6 md:px-20 md:py-10">
+  <main class="max-w-5xl mx-auto">
+    <h1 class="text-yellow-400 font-semibold text-2xl mb-6 text-center md:text-left">
+      Services
+    </h1>
+    <p class="text-xs leading-tight mb-6">
+      The world is converting now in a Global Village. Globalization and global corporations today demand more mobility from their employees. This also includes fast change of location to another country, a foreign city and the associated double burden of relocation and work.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Movers And Packers offers door to door service across the globe. We are specializing in the export packing and Shipping of household goods and personal effects, the proper loading of automobiles, as well as boats. We not only provide services to individuals and families, but also multinational companies, government offices, military personnel, embassies, consulates, students and others.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      We coordinate the international moves with offices and affiliates throughout the country from our headquarters in Lahore. We only use most experienced packing crews in areas of the country where we don’t have our own. But most importantly, we control the overseas shipping portion of the move, where brokers and small local movers often fail, because they hire out that portion to other shipping companies. Handling the move this way, we keep complete supervision and control of every direction of your move.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Over 10 Years Experience Moving You around the Globe
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Movers And Packers is one of the most trustworthy international moving companies in the Pakistan, offering relocation services and personal vehicle shipping and international moving from anywhere in the country. This specialized moving of household goods, automobiles, boats, general cargo and other personal belongings should not be left to brokers or apparently competitive but doubtful local movers.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      All you need to do is open the door – we’ll take care of the rest!
+    </p>
+    <p class="text-xs leading-tight mb-2">Packing & Inventory</p>
+    <p class="text-xs leading-tight mb-2">Transport to Port</p>
+    <p class="text-xs leading-tight mb-2">Customs Clearance</p>
+    <p class="text-xs leading-tight mb-2">Door Delivery</p>
+    <p class="text-xs leading-tight mb-2">White glove Service</p>
+    <p class="text-xs leading-tight mb-6">
+      From full-service packing and inventory to container drop-off for self-loading, we’ve got a moving solution to fit every budget.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      We relocate thousands of households overseas each year. We’ll make your moving process as simple as possible. Please do not hesitate to call or email us anytime for more details.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Quotes are available online, with a guaranteed response within 24 hours for domestic and international moving services.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      We provide reliable nationwide coast to coast moving services, as well as international relocation. Depend on us for reliable and expedited moving services.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Our dedicated team of moving specialists is always a phone call away to answer any questions you may have.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Movers And Packers Company strongly believe that matchless customer services can only be execute through experience in understanding client’s needs, sensitivity in measure client’s level of satisfaction or dissatisfaction, ample market knowledge, and the highest levels of motivation and commitment.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Personal relocation experience is a key indicator in selecting our team of staff and consultants. Since we all know ourselves what it’s like to move to a out of country without understanding the language and without knowing how things are done, we have a bigger heart for our client’s concern.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      And we make a genuine effort to find the best fit when connecting our clients with one of our service consultants. We look at nationalities, age, languages spoken and desire living areas before selecting a service consultant because we want our clients to be serviced by someone who truly understands their needs and who they like spending time with.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Movers And Packers has the capabilities of providing a web based service status tracking platform to individual and to the companies.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      It gives a complete overview to our Valued Customer. It provides in a clear and user-friendly format the actual delivery status for each of these services.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Commercial shipments always require experience. More than anywhere else in the shipping industry, efficiency and accuracy is a key when it comes to shipping this kind of freight. Deadlines have to be met and cargo had to arrive safely at the destination without any disturbance because stores, vendors, factories and other third parties depend on that freight for their operations.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      Movers And Packers Company has experienced staff with years of experience in this field. We have vast experience in handling commercial cargo, household goods, and projects, including oversize and break-bulk cargo. Find out why some of the biggest corporate names trust Movers And Packers for their cargo shipment needs. With offices and agents around the Pakistan, we are ready to meet any of your logistics requirements.
+    </p>
+    <p class="text-xs leading-tight mb-6">
+      For over a decade, Movers And Packers has provided reliable shipping services to companies all over the world, including handling of worldwide shipping services. We have also provided expert oversized transportation, and most recently have been chosen by well know brand in Pakistan. Since 2010, we have exported a lot of shipments throughout the World. Just Request a free online quote and our shipping experts are ready to assist you throughout the whole shipping process. Take advantage of our new online tracking system and get real time updates on your all inbound and out bound shipments. Convenience, security and ease all in one place, No matter the size of your cargo or shipment, Movers And Packers is ready for all your shipping and logistics needs.
+    </p>
+    <p class="text-xs leading-tight">
+      Our agents are always a phone call away
+    </p>
+  </main>
+</body>
+</html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   About Us &amp; Contact
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-white font-sans">
+  <!-- About Us Section -->
+  <section class="bg-[#f7b500] px-4 py-8 md:py-12 md:px-20">
+   <h2 class="text-center text-2xl md:text-3xl font-semibold mb-6">
+    ABOUT US
+   </h2>
+   <div class="max-w-5xl mx-auto text-[13px] md:text-sm text-[#3a2f0f] leading-relaxed space-y-4">
+    <p>
+     Our Main Object is to provide our customers professional and personal support in all Moving Related matters. We like to take care of your like Precious Belongings like ours! We are the flexible contact for expatriates, personnel departments, private persons and professionals - both nationally and internationally. Our services range from house shifting To Office Relocation across Pakistan and World Wide.
+    </p>
+    <p>
+     We answer all questions relevant to your moving in advance, so that you can feel easy to move with us without stress and without worries. We help you to make a decision about the final move Plan to save your precious time.
+    </p>
+    <p>
+     If you are looking for a most experienced and high quality Relocation Company that offers the full range of packing and relocation service, then you are on the right place! Movers And Packers Company is a pioneer in the Packing and Moving industry. Movers And Packers Company Pakistan has a huge number of remarkable people from all over the world for more than 10 years.
+    </p>
+    <p>
+     Our mission has always been to deliver a very caring and highly personalized service to our each and every customer, and become a Perfect Relocation Expert. At the same time, we strive to provide the most effective relocation solutions in the most cost efficient way.
+    </p>
+    <p>
+     You will find out more about us and the services which we offer on our website. We are happy that you found us and look forward to hearing from you!
+    </p>
+    <p>
+     Movers And Packers is made up of highly prompt individuals who are eager about making a positive impression on other people’s lives through relocation to a foreign country that they will never forget. A Huge Competition in our way of manage business is honesty and transparency, and everyone on our team must be committed to serving others in a genuinely caring way, and indicate the highest level of skills and professionalism at all times. In addition to honesty and transparency, independence is vital to offering flawless value and best choices to our clients. Movers and Packers are neither Involved in any directly or indirectly business concern and strictly avoid the acceptance of any kind of kick-backs from other agents. This straightforward policy allows us to focus only on our client’s best interests.
+    </p>
+   </div>
+  </section>
+  <!-- Logos Section -->
+  <section class="py-4 bg-white border-t border-b border-gray-200">
+   <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-4">
+    <img alt="IAM International Association of Movers logo" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=IAM+Logo&amp;font=roboto"/>
+    <img alt="Freightnet logo in red and gray text" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=Freightnet+Logo&amp;font=roboto"/>
+    <img alt="MOVERS P.O.E logo with red and black text" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=MOVERS+P.O.E+Logo&amp;font=roboto"/>
+    <img alt="Worldwide ERC logo with red and gray text" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=Worldwide+ERC+Logo&amp;font=roboto"/>
+    <img alt="MoverWorldWide logo with black text and tagline" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=MoverWorldWide+Logo&amp;font=roboto"/>
+    <img alt="Green logo with Urdu text representing Pakistan" class="border border-gray-300 p-2" src="https://placehold.co/120x40?text=Green+Logo+Pakistan&amp;font=roboto"/>
+   </div>
+  </section>
+  <!-- Contact Us Section -->
+  <section class="bg-[#0f2f5a] py-10 px-4 md:px-20 text-white">
+   <h2 class="text-center text-2xl md:text-3xl font-semibold mb-1">
+    CONTACT US
+   </h2>
+   <p class="text-center font-semibold mb-8">
+    Our Company
+   </p>
+   <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16 justify-center">
+    <!-- Head Office Info -->
+    <div class="bg-white text-black p-6 w-full max-w-sm">
+     <h3 class="font-semibold underline text-center mb-4 text-lg md:text-xl">
+      Head Office
+     </h3>
+     <p class="text-center mb-4 text-sm md:text-base">
+      <i class="fas fa-map-marker-alt mr-1">
+      </i>
+      Gulberg-III,
+      <br/>
+      Lahore, Pakistan.
+     </p>
+     <p class="text-center mb-1 text-sm md:text-base">
+      <i class="fas fa-phone mr-1">
+      </i>
+      +92-42-35763038
+     </p>
+     <p class="text-center mb-1 text-sm md:text-base">
+      <i class="fas fa-phone mr-1">
+      </i>
+      +92-42-35775680
+     </p>
+     <p class="text-center text-sm md:text-base flex justify-center items-center gap-2">
+      <i class="fas fa-mobile-alt">
+      </i>
+      +92-321-4108433
+      <button class="ml-2 bg-[#004a8f] text-white text-xs md:text-sm px-3 py-1 rounded font-semibold italic hover:bg-[#003a6f] transition" type="button">
+       Call Now
+      </button>
+     </p>
+    </div>
+    <!-- Send Us Query Form -->
+    <form action="#" aria-label="Send Us Query Form" class="bg-[#f7b500] p-6 w-full max-w-sm flex flex-col gap-3" method="POST">
+     <h3 class="font-semibold text-lg mb-3">
+      Send Us Query
+     </h3>
+     <input aria-label="Your Name" class="px-3 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600" name="name" placeholder="Your Name" required="" type="text"/>
+     <input aria-label="Your Email" class="px-3 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600" name="email" placeholder="Your Email" required="" type="email"/>
+     <input aria-label="Your Mobile Number" class="px-3 py-2 rounded border
